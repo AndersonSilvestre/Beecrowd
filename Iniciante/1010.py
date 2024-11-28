@@ -1,0 +1,6 @@
+cod1, pec1, val1 = input().split()
+cod1, pec1, val1 = int(cod1), int(pec1),float(val1)
+cod2, pec2, val2 = input().split()
+cod2, pec2, val2 = int(cod2), int(pec2),float(val2)
+valortotal = (pec1 * val1) + (pec2 * val2)
+print(f'VALOR A PAGAR: R$ {valortotal:.2f}')
