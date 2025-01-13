@@ -1,0 +1,6 @@
+l, d = map(int, input().split())
+k, p = map(int, input().split())
+pedagios = int(l / d)
+valorPedagios = int(pedagios * p)
+valor = int((k * l) + valorPedagios)
+print(f'{valor:.0f}')
